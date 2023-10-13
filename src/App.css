@@ -1,0 +1,54 @@
+body{
+  background: linear-gradient(135deg,#032783e0, #03f4b4);
+}
+
+.App {
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #070707f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px double #dacece;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.display {
+  background-color: #032783e0;
+  border: 2px double #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: end;
+  height: 120px;
+  color:antiquewhite;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: #190251;
+  border: 1px double #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: #3a3737;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgb(206, 205, 205);
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #032783e0;
+}
